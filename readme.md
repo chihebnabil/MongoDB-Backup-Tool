@@ -14,7 +14,7 @@ Install the required libraries using pip:
 pip install pymongo bson
 ```
 
-## Export Script (export_script.py)
+## Export Script (export.py)
 
 This script exports all collections from a specified MongoDB database to a JSON file.
 
@@ -33,7 +33,7 @@ python export.py <mongodb_url> <output_file>
 python export.py "mongodb://username:password@localhost:27017/mydb" output.json
 ```
 
-## Import Script (import_script.py)
+## Import Script (import.py)
 
 This script imports data from a JSON file (created by the export script) into a MongoDB database.
 
